@@ -5,6 +5,7 @@ class TinyTown extends Phaser.Scene {
 
     preload() {
         this.load.setPath("./assets/");
+        
         this.load.image("tiny_town_tiles", "kenny-tiny-town-tilemap-packed.png");    // tile sheet   
         this.load.tilemapTiledJSON("map", "TinyTownMap.json");                   // Load JSON of tilemap
     }
@@ -27,9 +28,11 @@ class TinyTown extends Phaser.Scene {
         // https://newdocs.phaser.io/docs/3.54.0/Phaser.Tilemaps.Tilemap#createLayer
         this.grassLayer = this.map.createLayer("Grass-n-Houses", this.tileset, 0, 0);
         this.treeLayer = this.map.createLayer("Trees-n-Fences", this.tileset, 0, 0);
-        this.grassLayer.setScale(4.0);
-        this.treeLayer.setScale(4.0);
-
+        this.toolsLayer = this.map.createLayer("Tools", this.tileset, 0, 0);
+        this.grassLayer.setScale(5.0);
+        this.treeLayer.setScale(5.0);
+        this.toolsLayer.setScale(5.0);
+        document.getElementById('description').innerHTML = '<h2>Welcome to Castanova!</h2>'
     }
 
     update() {

@@ -1,0 +1,42 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Tiny Town.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Tiny Town.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 134.49999999999997,
+                "y": 69.49999999999999
+            }
+        },
+        "Tiny Town.tmx#tiny-town-packed": {
+            "scaleInDock": 0.75
+        }
+    },
+    "last.exportedFilePath": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/TopDownWorld/assets",
+    "last.imagePath": "C:/Users/zande/OneDrive/Desktop/CMPM 120/Section Assignments/TopDownWorld/assets",
+    "map.height": 10,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 10,
+    "openFiles": [
+        "Tiny Town.tmx"
+    ],
+    "project": "Tiny Town.tiled-project",
+    "recentFiles": [
+        "Tiny Town.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
